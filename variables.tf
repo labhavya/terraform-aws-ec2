@@ -23,10 +23,20 @@ variable instance_type {
 }
 
 #optional
-variable "tags" {
+variable "ec2_tags" {
   
   default     = {}
   
 }
 
 
+variable "subnet_id" {
+ 
+}
+variable "is_public" {
+
+}
+
+variable "common_tags" {
+ 
+}
