@@ -40,3 +40,10 @@ variable "is_public" {
 variable "common_tags" {
  
 }
+
+
+variable "server-role" {
+
+  
+
+}

@@ -8,7 +8,7 @@ resource "aws_instance" "this" {
 
     var.common_tags,
     {
-      Name="expense-dev-bastion"
+      Name="${var.project}-${var.environment}-${server-role}"
     }
   )
 }
