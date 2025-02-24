@@ -47,3 +47,11 @@ variable "server-role" {
   
 
 }
+
+variable project {
+
+}
+
+variable environment {
+
+}
