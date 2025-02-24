@@ -8,7 +8,7 @@ resource "aws_instance" "this" {
 
     var.common_tags,
     {
-      Name="${var.project}-${var.environment}-${server-role}"
+      Name="${var.project}-${var.environment}-${var.server-role}"
     }
   )
 }
